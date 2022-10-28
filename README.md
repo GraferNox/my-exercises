@@ -46,3 +46,13 @@ ufw allow 22
 чтобы узнать ip нашего хоста достаточно набрать команду
 
 ip a
+
+
+docker-compose.yaml
+
+сервисы postgres, pgadmin, hasura/graphql-engine, prometheus, node-exporter, grafana
+
+как установить docker и docker-compose можно посмотреть тут: 
+
+https://docs.docker.com/engine/install/
+https://docs.docker.com/compose/install/
