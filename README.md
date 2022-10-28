@@ -16,12 +16,17 @@ systemctl enable sshd
 ssh localhost
 
 #копируем оригинальный конфиг и редактируем его
+
 cp /etc/ssh/sshd_config /etc/ssh/sshd_config.old
+
 nano /etc/ssh/sshd_config
 
 #по паролю параметр PermitRootLogin yes
+
 #По ключу параметр PubkeyAuthentication yes
+
 #рестартуем его
+
 systemctl restart ssh
 
 #добавляем правило
