@@ -35,9 +35,9 @@ services:
   prometheus:
     image: prom/prometheus #:v2.34.0
     container_name: prometheus
-    volumes:
-      - ./prom-etc:/etc/prometheus
-      - prometheus_data:/prometheus
+#    volumes:
+#      - ./prom-etc:/etc/prometheus
+#      - prometheus_data:/prometheus
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
