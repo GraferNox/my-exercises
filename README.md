@@ -27,3 +27,4 @@ docker-compose.yaml
 как установить docker и docker-compose можно посмотреть тут:   
 https://docs.docker.com/engine/install/  
 https://docs.docker.com/compose/install/  
+продолжение следует...
